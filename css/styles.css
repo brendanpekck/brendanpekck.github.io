@@ -1,0 +1,160 @@
+p {
+	font-family: "Amiri Quran", serif;
+	color: #8c704d;
+}
+
+.menu {
+	width: 5%;
+	cursor: pointer;
+}
+
+.close {
+	width: 7%;
+	cursor: pointer;
+}
+
+.logo {
+	width: 100%;
+}
+
+.slide {
+	height: 70vh;
+}
+
+.head-height{
+	height: 10vh;
+}
+
+.body-height {
+	height: 90vh;
+}
+
+.no-margins {
+	margin: 0 !important;
+}
+
+.no-paddings {
+	padding: 0 !important;
+}
+
+.hide-overflow {
+	overflow: hidden;
+}
+
+.justify-left {
+	text-align: left;
+}
+
+.justify-right {
+	text-align: right;
+}
+
+.title-card {
+	color: #1f494d;
+	font-size: 3vh;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	height: 4vh;
+	width: 4vh;
+	background-size: 70%;
+	background-color: #808080;
+	border-radius: 50%;
+}
+
+body {
+	background-image: url("../img/bg.jpg");
+	background-size: 15%;
+	background-repeat: repeat;
+}
+
+.margin-top {
+	margin-top: 3vh;
+}
+
+.heading {
+	font-size: 15vh;
+	font-family: "Amiri Quran", serif;
+}
+
+.subtitle {
+	font-size: 3vh;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+.index-button {
+	background-color: #8c704d;
+	width: 30%;
+	padding: 2% 0% 3% 0%;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.card-button {
+	background-color: #8c704d;
+	width: 100%;
+	padding: 3% 0% 4% 0%;
+	text-align: center;
+	color: #ffffff;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.top-bar {
+	position: relative;
+	box-shadow: 0px 0px 15px 0px #808080;
+	background-color: #ffffff;
+}
+
+.navigation {
+	list-style-type: none;
+}
+
+.navigation li{
+	padding: 4%;
+}
+
+.navigation li a{
+	color: #1f494d;
+	font-size: 2vh;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.card {
+	margin: 6% 2% !important;
+	width: 60vh;
+}
+
+.card-body {
+	padding-top: 0 !important;
+}
+
+.card-title {
+	font-size: 200%;
+	font-family: "Amiri Quran", serif;
+	color: #143033;
+}
+
+.card-text {
+	font-size: 100%;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.fade-in {
+	animation: fade 1s ease-out 0s 1;
+}
