@@ -6,11 +6,14 @@ p {
 .menu {
 	width: 5%;
 	cursor: pointer;
+	min-width: 20px;
+	margin-left: 2%;
 }
 
 .close {
 	width: 7%;
 	cursor: pointer;
+	min-width: 10px;
 }
 
 .logo {
@@ -18,11 +21,19 @@ p {
 }
 
 .slide {
-	height: 70vh;
+	width: auto;
+	height: auto;
+	max-width: 80vw;
+	max-height: 80vh;
+}
+
+.carousel {
+	height: 100% !important;
 }
 
 .head-height{
-	height: 10vh;
+	height: 5vw;
+	min-height: 100%;
 }
 
 .body-height {
@@ -51,7 +62,7 @@ p {
 
 .title-card {
 	color: #1f494d;
-	font-size: 3vh;
+	font-size: 2vw;
 }
 
 .carousel-control-prev-icon,
@@ -70,23 +81,23 @@ body {
 }
 
 .margin-top {
-	margin-top: 3vh;
+	margin-top: 0.5vh;
 }
 
 .heading {
-	font-size: 15vh;
+	font-size: 10vw;
 	font-family: "Amiri Quran", serif;
 }
 
 .subtitle {
-	font-size: 3vh;
+	font-size: 2vw;
 	font-family: "Hanken Grotesk", sans-serif;
 }
 
 .index-button {
 	background-color: #8c704d;
-	width: 30%;
-	padding: 2% 0% 3% 0%;
+	width: 100%;
+	padding: 6% 0% 8% 0%;
 	text-align: center;
 	color: #ffffff;
 	cursor: pointer;
@@ -95,7 +106,7 @@ body {
 .card-button {
 	background-color: #8c704d;
 	width: 100%;
-	padding: 3% 0% 4% 0%;
+	padding: 3% 0% 5% 0%;
 	text-align: center;
 	color: #ffffff;
 	cursor: pointer;
@@ -106,6 +117,7 @@ body {
 	position: relative;
 	box-shadow: 0px 0px 15px 0px #808080;
 	background-color: #ffffff;
+	min-height: 30px;
 }
 
 .navigation {
@@ -157,4 +169,8 @@ a {
 
 .fade-in {
 	animation: fade 1s ease-out 0s 1;
+}
+
+.offcanvas {
+	border: none !important;
 }

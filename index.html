@@ -13,14 +13,14 @@
 	<body>
 		<div class="container-fluid">
 			<div class="row top-bar">
-				<div class="col-12">
-					<div class="container-fluid sticky-top">
+				<div class="col-md-12 col-12 no-paddings">
+					<div class="container-fluid">
 						<div class="row head-height align-items-center">
-							<div class="col-4">
+							<div class="col-md-4 col-sm-4 col-2">
 								<img class="menu" data-bs-toggle="offcanvas" data-bs-target="#static-menu" aria-controls="static-menu" src="img/menu.png" alt="Menu">
 								<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="static-menu">
 									<div class="offcanvas-header">
-										<img class="close" data-bs-dismiss="offcanvas" aria-label="close" src="img/close.png" alt="Close">
+										<img class="close" data-bs-dismiss="offcanvas" data-bs-target="#static-menu" aria-label="close" src="img/close.png" alt="Close">
 									</div>
 									<div class="offcanvas-body">
 										<ul class="navigation">
@@ -31,50 +31,48 @@
 									</div>
 								</div>
 							</div>
-							<div class="col-4 text-center">
+							<div class="col-md-4 col-sm-8 col-10 text-center">
 								<a href="index.html">
 									<div class="row">
-										<div class="col-5">
-											<p class="title-card justify-right">HOMESCAPE</p>
-										</div>
-										<div class="col-2 my-auto">
+										<div class="col-md-12 col-sm-12 col-12">
 											<img class="logo" src="img/logo.png" alt="HomeScape Renovation Logo">
-										</div>
-										<div class="col-5">
-											<p class="title-card justify-left">RENOVATION</p>
 										</div>
 									</div>
 								</a>
 							</div>
-							<div class="col-4">
+							<div class="col-md-4 d-none d-sm-block">
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="row body-height align-items-center fade-in">
-				<div class="col-4">
+				<div class="col-md-4 col-12">
 					<div class="container-fluid text-left">
 						<div class="row">
-							<div class="col-12 offset-3">
+							<div class="col-md-12 col-12 offset-md-2">
 								<p class="heading z-1 position-relative">Interior Design</p>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-12 offset-3">
+							<div class="col-md-12 col-12 offset-md-2">
 								<p class="subtitle z-1 position-relative margin-top">INTERIOR DESIGN</p>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-12 offset-3">
-								<a href="portfolio.html"><p class="index-button z-1 position-relative margin-top">CHECK ME OUT</p></a>
+							<div class="col-md-12 col-12 offset-md-2">
+								<div class="row">
+									<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-8 col-sm-4 col-6">
+										<a href="portfolio.html"><p class="index-button z-1 position-relative margin-top">CHECK ME OUT</p></a>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-8 hide-overflow text-center no-paddings">
+				<div class="col-md-8 d-none d-md-block hide-overflow text-center no-paddings">
 					<!-- <img src="img/index.jpg" alt="Home Interior"> -->
-					<div id="main-display" class="carousel slide" data-bs-ride="carousel">
+					<div id="main-display" class="carousel" data-bs-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item active z-0 position-relative"><img class="slide" src="img/1.jpg" alt="Home Interior"></div>
 							<div class="carousel-item z-0 position-relative"><img class="slide" src="img/2.jpg" alt="Home Interior"></div>
